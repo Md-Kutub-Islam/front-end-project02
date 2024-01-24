@@ -13,6 +13,25 @@
     width: 100%;
   }
 
+  #cursor{
+    height: 25px;
+    width: 25px;
+    background-color: #95c11e;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+  }
+
+  #cursor-blur{
+    height: 300px;
+    width: 300px;
+    background-color: #96c11e3c;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    filter: blur(30px);
+  }
+
 /* nav bar work  */
 #nav {
     height: 130px;
